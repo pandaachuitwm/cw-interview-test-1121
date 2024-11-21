@@ -21,8 +21,8 @@ const props = defineProps({
 <template>
   <div class="py-[10px] flex md:block">
     <div
-      class="relative inline-flex items-center bg-white rounded-[32px] border border-[#DDD] md:w-[400px] w-full h-[40px] md:py-[4px]"
-      :class="[isFocus ? '' : 'w-[230px] mr-auto']"
+      class="relative inline-flex items-center bg-white rounded-[32px] border border-[#DDD] w-[230px] md:w-[400px] h-[40px] md:py-[4px]"
+      :class="[isFocus ? 'w-full' : 'w-[230px] mr-auto']"
     >
       <div class="relative inline-flex items-center">
         <!-- Dropdown button -->
